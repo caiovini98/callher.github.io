@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: #eff1f0;
+}
+
+h1,
+h3 {
+  margin: 10px;
+  font-family: "Cantora One", sans-serif;
+  letter-spacing: 1.2px;
+}
+
+h1 {
+  color: #7e5dca;
+}
+
+h3 {
+  color: #313132;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 400px;
+  height: 550px;
+}
+
+.buttons-container {
+  margin-top: 40px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+  width: 80px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+  background-color: #7e5dca;
+  outline: none;
+  color: #eff1f0;
+  font-family: "Cantora One", sans-serif;
+}
+
+/* .btn-success {
+  
+} */
